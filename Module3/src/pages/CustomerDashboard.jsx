@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getRestaurants } from "../utils/localStorage";
+import { getRestaurants } from "../utils/localStoarge";
 import Navbar from "../components/Navbar";
 import RestaurantCard from "../components/RestaurantCard";
 

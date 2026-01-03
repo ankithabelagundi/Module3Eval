@@ -1,9 +1,11 @@
-import { Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import PrivateRoute from "./routes/PrivateRoute";
 import AdminRoute from "./routes/AdminRoute";
 import UpdateRestaurant from "./pages/UpdateRestaurant";
 import CustomerRoute from "./routes/CustomerRoute";
 import CustomerDashboard from "./pages/CustomerDashboard";
+import Login from "./pages/Login";
+import AdminDashboard from "./pages/AdminDashboard";
 
 
 
