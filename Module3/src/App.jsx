@@ -7,10 +7,6 @@ import CustomerDashboard from "./pages/CustomerDashboard";
 import Login from "./pages/Login";
 import AdminDashboard from "./pages/AdminDashboard";
 
-
-
-
-
 function App(){
 return(
   <Routes>
@@ -37,6 +33,6 @@ return(
       </PrivateRoute>
     }/>
   </Routes>
-)
+);
 }
 export default App;
