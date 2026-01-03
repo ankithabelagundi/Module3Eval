@@ -2,7 +2,7 @@ import { createContext, useState } from "react";
 export const AuthContext = createContext();
 export const AuthProvider =({childern})=>{
     const[user,setUser]=useState(
-        JSON.prase(localStorage.getItem("user"))||null
+        JSON.parse(localStorage.getItem("user"))||null
     );
     const login=(email,password)=>{
         if(email==="admin@gmail.com"&& password==="admin1234"){
