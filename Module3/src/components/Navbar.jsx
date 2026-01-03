@@ -35,5 +35,5 @@ export default function Navbar({
                 <option value="false">No Parking</option>
             </select>
         </div>
-    )
+    );
 }
